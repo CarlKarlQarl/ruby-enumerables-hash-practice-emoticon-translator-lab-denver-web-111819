@@ -26,3 +26,6 @@ end
 def get_english_meaning
   # code goes here
 end
+
+filepath = "lib/emoticons.yml"
+pp load_library(filepath)
