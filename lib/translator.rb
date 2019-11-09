@@ -30,4 +30,4 @@ end
 #filepath = "lib/emoticons.yml"
 #pp load_library(filepath)
 
-pp YAML.load_file(filepath)
+emoticons = YAML.load_file(filepath)
